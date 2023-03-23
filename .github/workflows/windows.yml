@@ -4,8 +4,7 @@
 
 name: Build and test Windows plug-in
 
-on:  
-  workflow_dispatch: true
+on: workflow_dispatch
 
 env:
    WIRESHARK_BRANCH: release-3.6

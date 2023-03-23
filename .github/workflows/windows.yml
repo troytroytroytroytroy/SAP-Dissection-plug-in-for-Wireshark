@@ -4,7 +4,8 @@
 
 name: Build and test Windows plug-in
 
-on: [push, pull_request]
+on:  
+  workflow_dispatch: true
 
 env:
    WIRESHARK_BRANCH: release-3.6
